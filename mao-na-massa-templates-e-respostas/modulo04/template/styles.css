@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: #edf2f4;
+  color: #2b2d42;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+select,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+a {
+  font-weight: 700;
+  color: #2b2d42;
+  
+  transition: color 0.2s;
+}
+a:hover {
+  color: #2b2d42c4;
+}
+
+section {
+  width: 100%;
+  max-width: 800px;
+
+  margin: 0 auto;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h1 {
+  margin: 2rem 0 1rem;
+}
+
+p {
+  max-width: 450px;
+  margin: 1rem 0 1.75rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 500px;
+
+  background: #fff;
+
+  border-radius: 10px;
+
+  padding: 2rem 1.5rem;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+
+  margin: 0.15rem 0 1rem;
+  padding: 0.75rem 1rem;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #edf2f4;
+}
+
+form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  width: 100%;
+}
+
+form footer button {
+  color: #edf2f4;
+  font-size: 1rem;
+
+  border: 2px solid #2b2d42;
+  border-radius: 10px;
+
+  width: 100%;
+
+  padding: 10px;
+  margin-top: 1rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+form footer button[type="button"] {
+  background: transparent;
+
+  color: #000;
+}
+form footer button:first-of-type:hover {
+  background: #2b2d42;
+  color: #edf2f4;
+}
+
+form footer button.submit-button {
+  background: #2b2d42;
+  border-color: #2b2d42;
+}
+form footer button.submit-button:hover {
+  background: #2b2d4289;
+  border-color: #2b2d4289;
+}
+
+form .radio-inputs-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin: -1rem 0 1.5rem;
+}
+
+form .radio-inputs-wrapper label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin: 0 0.5rem 0.25rem;
+
+  width: 100%;
+}
+
+form .radio-inputs-wrapper label input {
+  margin: 0 0.5rem 0 0;
+  width: 16px;
+}

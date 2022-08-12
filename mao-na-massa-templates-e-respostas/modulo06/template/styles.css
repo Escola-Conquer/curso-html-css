@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: #edf2f4;
+  color: #2b2d42;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+select,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section .board {
+  background: #a8dadc;
+}
+
+.square {
+}
+
+.square.top.one {
+  background: #457b9d;
+}
+.square.top.two {
+  background: #1d3557;
+}
+.square.top.three {
+  background: #e63946;
+}
+
+.line {
+  background: #000;
+}
+
+.square.bottom.one {
+  background: #457b9d;
+}
+.square.bottom.two {
+  background: #1d3557;
+}
+.square.bottom.three {
+  background: #e63946;
+}
+
+.quero-mais {
+}

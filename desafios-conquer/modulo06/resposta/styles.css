@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: #edf2f4;
+  color: #2b2d42;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+select,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+section .board {
+  width: 600px;
+  height: 600px;
+
+  background: #a8dadc;
+
+  position: relative;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+}
+
+.square.top.one {
+  top: 16px;
+  left: 16px;
+
+  background: #457b9d;
+}
+.square.top.two {
+  top: 64px;
+  left: 64px;
+
+  z-index: 2;
+
+  background: #1d3557;
+}
+.square.top.three {
+  top: 128px;
+  left: 128px;
+
+  background: #e63946;
+}
+
+.line {
+  position: absolute;
+  
+  width: 100%;
+  height: 4px;
+
+  top: 50%;
+
+  background: #000;
+}
+
+.square.bottom.one {
+  bottom: 16px;
+  right: 16px;
+
+  z-index: 2;
+
+  background: #457b9d;
+}
+.square.bottom.two {
+  bottom: 64px;
+  right: 64px;
+
+  background: #1d3557;
+}
+.square.bottom.three {
+  bottom: 128px;
+  right: 128px;
+
+  z-index: 1;
+
+  background: #e63946;
+}
+
+.quero-mais {
+  width: 80px;
+  height: 80px;
+  background: #2a9d8f;
+
+  margin-left: calc(50% - 40px);
+}
+
