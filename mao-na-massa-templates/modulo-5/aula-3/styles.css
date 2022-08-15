@@ -1,0 +1,18 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Digite o código aqui */
+
+.with-background {
+  width: 300px;
+  height: 300px;
+
+  border: 1px solid #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Digite o código aqui */
+}
