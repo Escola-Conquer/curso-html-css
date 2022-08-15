@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+.title {
+  color: blue;
+}
+
+#title-secondary {
+  color: blue;
+}
+
+input[type="password"] {
+  background: green;
+}
+
+.seletor-filho > h3 {
+  color: yellow;
+}
+
+.seletor-sucessor-imediato p + p {
+  color: blue;
+}
+
+.seletor-sucessor div ~ div p {
+  color: blue;
+}
+
+ul li:nth-child(3) {
+  color: blue;
+}

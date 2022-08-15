@@ -1,0 +1,27 @@
+body {
+  background: url("./background.jpeg") no-repeat fixed center;
+  background-size: cover;
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.images-wrapper {
+  background: #fff;
+
+  padding: 1rem;
+}
+
+.images-wrapper img {
+  width: 300px;
+  height: 300px;
+
+  object-fit: contain;
+}

@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.links-wrapper a {
+  text-decoration: none;
+  color: #000;
+
+  transition: color 0.2s;
+
+  margin-top: 8px;
+}
+
+.links-wrapper a:first-child {
+  margin-top: 0;
+}
+
+.links-wrapper a:hover {
+  color: gray;
+}

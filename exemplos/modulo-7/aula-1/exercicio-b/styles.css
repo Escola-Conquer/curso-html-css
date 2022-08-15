@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: #fff;
+}
+
+body > div {
+  background: #cad2c5;
+
+  width: 400px;
+  height: 250px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+body > div .box {
+  width: 80px;
+  height: 80px;
+  
+  background: #84a98c;
+}
+
+body > div .box:nth-child(2) {
+  flex-basis: 140px;
+}
+
+.box2 {
+  order: -1;
+}
