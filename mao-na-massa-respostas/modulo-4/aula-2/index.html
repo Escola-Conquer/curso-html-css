@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -19,34 +19,28 @@
 
   <body>
     <div class="wrapper">
-      <h1>Login</h1>
+      <h1>Meus dados</h1>
 
-      <form id="form">
-        <label for="email">E-mail</label>
-        <input
-          id="email-input"
-          type="email"
-          name="email"
-          placeholder="Digite seu email"
-          required
-        />
+      <form id="form" name="form">
+        <p>
+          <label for="name">Nome</label>
+          <input type="text" name="name">
+        </p>
 
-        <label for="password">Senha</label>
-        <input
-          id="password-input"
-          type="password"
-          name="password"
-          placeholder="Digite sua senha"
-          required
-        />
+        <p>
+          <label for="whatsapp">WhatsApp</label>
+          <input type="tel" name="whatsapp">
+        </p>
 
-        <label for="remember-me-input" class="checkbox">
-          <input id="remember-me-input" type="checkbox" name="rememberMe" />
+        <p>
+          <label for="skillLevel">Qual seu nível de conhecimento sobre HTML</label>
+          <input type="range" name="skillLevel">
+        </p>
 
-          Lembrar-me
-        </label>
-
-        <button>Logar</button>
+        <p>
+          <label for="description">Fale um pouco sobre você</label>
+          <textarea name="description" id="" cols="30" rows="10"></textarea>
+        </p>
       </form>
     </div>
   </body>
