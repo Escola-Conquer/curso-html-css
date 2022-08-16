@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Lato", sans-serif;
+  color: #353535;
+
+  background: #353535;
+
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 450px;
+
+  padding: 1rem;
+  margin: 1rem;
+
+  background: #e9ecef;
+
+  border-radius: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 48px 100px 0px;
+}
+
+.wrapper h1 {
+  margin-top: 0;
+
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 100%;
+
+  margin-top: 1rem;
+}
+
+form label {
+  text-align: left;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+
+  background: #fff;
+  border: none;
+
+  padding: 10px;
+  border-radius: 10px;
+
+  margin: 0.25rem 0 0.5rem;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 35px;
+  font-family: "Roboto", sans-serif;
+}
+
+form .radio-inputs-wrapper {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0.75rem 0 1.5rem;
+}
+
+form .checkbox-wrapper {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+  width: 20px;
+  margin: 0;
+  margin-right: 4px;
+}
+
+form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 1rem;
+
+  width: 100%;
+}
+
+form footer button {
+  color: #e9ecef;
+  font-size: 1rem;
+
+  border: 2px solid #127475;
+  border-radius: 10px;
+
+  width: 100%;
+
+  padding: 10px;
+  margin-top: 1rem;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s, color 0.2s;
+}
+
+form footer button:first-of-type {
+  background: transparent;
+
+  color: #000;
+}
+form footer button:first-of-type:hover {
+  background: #127475;
+  color: #e9ecef;
+}
+
+form footer button:last-child {
+  background: #127475;
+  border-color: #127475;
+}
+form footer button:last-child:hover {
+  background-color: #127375e0;
+}
