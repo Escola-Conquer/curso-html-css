@@ -1,20 +1,81 @@
-* {
-  margin: 0;
-  padding: 0;
-
-  box-sizing: border-box;
+#box1, #box2, #box3, #box4, #box5, #box6, #box7 {
+    border: solid;
+    border-width: 15px;
+    color: yellow;
+    font-size: 100px;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    align-items: end;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
 }
 
-.disappear {
-  display: none;
+#container {
+    width: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+    border: solid yellow;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#box1 {
+    border-color: rgb(255, 255, 0);
+    height: 33%;
+    width: 33%;
+}
+#box2 {
+    border-color: rgb(255, 0, 0);
+    height: 33%;
+    width: 16%;
+}
+
+#box3 {
+    border-color: rgb(255, 0, 255);
+    height: 33%;
+    width: 49%;
+}
+
+#box4 {
+    border-color: rgb(0, 0, 255);
+    height: 33%;
+    width: 49%;
+}
+
+#box5 {
+    border-color: rgb(0, 255, 255);
+    height: 33%;
+    width: 33%;
+}
+
+#box6 {
+    border-color: rgb(0, 255, 0);
+    height: 33%;
+    width: 16%;
+}
+
+#box7 {
+    border-color: rgb(255, 255, 255);
+    height: 33%;
+    width: 33%;
+}
+
+#box8 {
+    height: 33%;
+    width: 66%;
+    border: solid yellow;
+    border-width: 15px;
+    box-sizing: border-box;
+    color: none;
+    display: inline-block;
+    font-size: 100px;
+    background-image: url("./conquer-logo.png");
+    background-size: cover;
 }
