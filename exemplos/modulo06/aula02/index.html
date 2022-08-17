@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: #ef113d;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 10px;
+        }
+
+        #auto {
+            width: auto;
+            height: auto;
+        }
+
+        #length-1 {
+            width: 150px;
+            height: 150px;
+        }
+
+        #length-2 {
+            height: 100px;
+            width: 200px;
+        }
+
+        #porcentagem-pai {
+            height: 300px;
+            width: 300px;
+        }
+
+        #porcentagem-filho  {
+            background-color: #000000;
+            height: 50%;
+            width: 50%;
+        }
+
+        #initial {
+            height: initial;
+            width: initial;
+        }
+
+        #inherit-pai {
+            width: 200px;
+            height: 150px;
+        }
+
+        #inherit-filho  {
+            background-color: #000000;
+            height: inherit;
+            width: inherit;
+        }
+
+        #calc {
+            width: calc(50vw + 20px);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="auto">
+        height: auto; width: auto;
+    </div>
+
+    <div id="length-1">
+        height: 150px; width: 150px;
+    </div>
+
+    <div id="length-2">
+        height: 100px; width: 200px;
+    </div>
+
+    <div id="porcentagem-pai">
+        <div id="porcentagem-filho">
+            Essa div tem 50% da altura e da largura de uma div de 300px de largura e 300px de altura
+        </div>
+    </div>
+
+    <div id="initial">
+        height: initial; width: initial;
+    </div>
+
+    <div id="inherit-pai">
+        <div id="inherit-filho">
+            Essa div herda as propriedades de uma div que tem 200px de largura e 150 de altura
+        </div>
+    </div>
+
+    <div id="calc">
+        Essa div possui como largura metade da dimensão da tela, adicionada de 20px
+    </div>
+</body>
+</html>

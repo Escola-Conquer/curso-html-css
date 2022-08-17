@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Float</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            padding: 20px;
+            border: 1px solid #eaeaea;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px;
+            margin-bottom: 20px;
+        }
+
+        .bloco {
+            padding: 15px 10px;
+            background-color: #1ac0c6;
+            border: 5px solid #fdfa66;
+            border-radius: 3px;
+            max-width: 144px;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .float-none {
+            float: none;
+        }
+
+        .float-inline-start {
+            float: inline-start;
+        }
+
+        .float-inline-end {
+            float: inline-end;
+        }
+
+        .rtl {
+            direction: rtl;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Float: Left -->
+    <div class="container">
+        <div class="bloco float-left">float: left</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo. Inventore, facere recusandae
+            aspernatur quae pariatur autem amet atque commodi nostrum id error vitae beatae accusantium ipsum illum
+            dolor porro. Sequi modi reiciendis neque necessitatibus asperiores quae nam aliquam repellat ducimus illo,
+            animi nihil fugiat repudiandae assumenda est nesciunt consequuntur minima officia cumque voluptatem non
+            mollitia enim. Ullam, sint fugit. Suscipit distinctio enim iure quidem quam iste. Error, similique esse
+            minima aperiam temporibus porro tempore autem. Fuga mollitia reprehenderit ducimus repudiandae, quo ipsum?
+            Iste ex pariatur aut sunt molestias earum.
+        </p>
+    </div>
+
+    <!-- Float: Right -->
+    <div class="container">
+        <div class="bloco float-right">float: right</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo. Inventore, facere recusandae
+            aspernatur quae pariatur autem amet atque commodi nostrum id error vitae beatae accusantium ipsum illum
+            dolor porro. Sequi modi reiciendis neque necessitatibus asperiores quae nam aliquam repellat ducimus illo,
+            animi nihil fugiat repudiandae assumenda est nesciunt consequuntur minima officia cumque voluptatem non
+            mollitia enim. Ullam, sint fugit. Suscipit distinctio enim iure quidem quam iste. Error, similique esse
+            minima aperiam temporibus porro tempore autem. Fuga mollitia reprehenderit ducimus repudiandae, quo ipsum?
+            Iste ex pariatur aut sunt molestias earum.
+        </p>
+    </div>
+
+    <!-- Float: None -->
+    <div class="container">
+        <div class="bloco float-none">float: none</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo. Inventore, facere recusandae
+            aspernatur quae pariatur autem amet atque commodi nostrum id error vitae beatae accusantium ipsum illum
+            dolor porro. Sequi modi reiciendis neque necessitatibus asperiores quae nam aliquam repellat ducimus illo,
+            animi nihil fugiat repudiandae assumenda est nesciunt consequuntur minima officia cumque voluptatem non
+            mollitia enim. Ullam, sint fugit. Suscipit distinctio enim iure quidem quam iste. Error, similique esse
+            minima aperiam temporibus porro tempore autem. Fuga mollitia reprehenderit ducimus repudiandae, quo ipsum?
+            Iste ex pariatur aut sunt molestias earum.
+        </p>
+    </div>
+
+    <!-- Float: Inline-Start -->
+    <div class="container">
+        <div class="bloco float-inline-start">float: inline-start (ltr)</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo. Inventore, facere recusandae
+            aspernatur quae pariatur autem amet atque commodi nostrum id error vitae beatae accusantium ipsum illum
+            dolor porro. Sequi modi reiciendis neque necessitatibus asperiores quae nam aliquam repellat ducimus illo,
+            animi nihil fugiat repudiandae assumenda est nesciunt consequuntur minima officia cumque voluptatem non
+            mollitia enim. Ullam, sint fugit. Suscipit distinctio enim iure quidem quam iste. Error, similique esse
+            minima aperiam temporibus porro tempore autem. Fuga mollitia reprehenderit ducimus repudiandae, quo ipsum?
+            Iste ex pariatur aut sunt molestias earum.
+        </p>
+    </div>
+
+    <!-- Float: Inline-Start RTL -->
+    <div class="container rtl">
+        <div class="bloco float-inline-start">float: inline-start (rtl)</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo. Inventore, facere recusandae
+            aspernatur quae pariatur autem amet atque commodi nostrum id error vitae beatae accusantium ipsum illum
+            dolor porro. Sequi modi reiciendis neque necessitatibus asperiores quae nam aliquam repellat ducimus illo,
+            animi nihil fugiat repudiandae assumenda est nesciunt consequuntur minima officia cumque voluptatem non
+            mollitia enim. Ullam, sint fugit. Suscipit distinctio enim iure quidem quam iste. Error, similique esse
+            minima aperiam temporibus porro tempore autem. Fuga mollitia reprehenderit ducimus repudiandae, quo ipsum?
+            Iste ex pariatur aut sunt molestias earum.
+        </p>
+    </div>
+
+    <!-- Float: Inline-End -->
+    <div class="container">
+        <div class="bloco float-inline-end">float: inline-end (ltr)</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo. Inventore, facere recusandae
+            aspernatur quae pariatur autem amet atque commodi nostrum id error vitae beatae accusantium ipsum illum
+            dolor porro. Sequi modi reiciendis neque necessitatibus asperiores quae nam aliquam repellat ducimus illo,
+            animi nihil fugiat repudiandae assumenda est nesciunt consequuntur minima officia cumque voluptatem non
+            mollitia enim. Ullam, sint fugit. Suscipit distinctio enim iure quidem quam iste. Error, similique esse
+            minima aperiam temporibus porro tempore autem. Fuga mollitia reprehenderit ducimus repudiandae, quo ipsum?
+            Iste ex pariatur aut sunt molestias earum.
+        </p>
+    </div>
+
+    <!-- Float: Inline-End RTL -->
+    <div class="container rtl">
+        <div class="bloco float-inline-end">float: inline-end (rtl)</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo. Inventore, facere recusandae
+            aspernatur quae pariatur autem amet atque commodi nostrum id error vitae beatae accusantium ipsum illum
+            dolor porro. Sequi modi reiciendis neque necessitatibus asperiores quae nam aliquam repellat ducimus illo,
+            animi nihil fugiat repudiandae assumenda est nesciunt consequuntur minima officia cumque voluptatem non
+            mollitia enim. Ullam, sint fugit. Suscipit distinctio enim iure quidem quam iste. Error, similique esse
+            minima aperiam temporibus porro tempore autem. Fuga mollitia reprehenderit ducimus repudiandae, quo ipsum?
+            Iste ex pariatur aut sunt molestias earum.
+        </p>
+    </div>  
+</body>
+
+</html>

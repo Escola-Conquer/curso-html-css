@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        body {
+            background-color: #F5F5F5;
+            margin: 0px;
+            padding: 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        .container {
+            margin: 10px 0px 20px;
+            background-color: #FFF;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-row-reverse {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flex-column-reverse {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Trabalhando com Flexbox</h1>
+    </header>
+
+    <section>
+        <h1>Sem Display Flex</h1>
+        <div class="container">
+            <div>Item 1</div>
+            <div>Item 2</div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Utilizando flex-direction: row</h1>
+        <div class="container flex-row">
+            <div>Item 1</div>
+            <div>Item 2</div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Utilizando flex-direction: row-reverse</h1>
+        <div class="container flex-row-reverse">
+            <div>Item 1</div>
+            <div>Item 2</div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Utilizando flex-direction: column</h1>
+        <div class="container flex-column">
+            <div>Item 1</div>
+            <div>Item 2</div>
+        </div>
+    </section>
+
+    <section>
+        <h1>Utilizando flex-direction: column-reverse</h1>
+        <div class="container flex-column-reverse">
+            <div>Item 1</div>
+            <div>Item 2</div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            margin: 20px;
+        }
+
+        .quadrado {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .container>div:nth-child(odd) {
+            background-color: blueviolet;
+        }
+
+        .container>div:nth-child(even) {
+            background-color: gold;
+        }
+
+        #quadrado-1 {
+            left: 0px;
+            top: 0px;  
+            z-index: 10;          
+        }
+
+        #quadrado-2 {
+            left: 125px;
+            top: 125px;
+            z-index: -3;            
+        }
+
+        #quadrado-3 {
+            left: 250px;
+            top: 250px;
+            z-index: -1;
+                        
+        }
+
+        #quadrado-4 {
+            left: 375px;
+            top: 375px;
+            z-index: 15;            
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="quadrado" id="quadrado-1">1</div>
+        <div class="quadrado" id="quadrado-2">2</div>
+        <div class="quadrado" id="quadrado-3">3</div>
+        <div class="quadrado" id="quadrado-4">4</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Float</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        h1, h2  {
+            text-align: center;
+        }
+
+        .container-float {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px 20px 40px;
+            background-color: #e74645;
+        }
+
+        .float-left {
+            float: left;
+
+        }
+
+        .float-right {
+            float: right;
+        }
+
+        .container-flex {
+            display: flex;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            align-items: baseline;
+            justify-content: space-between;
+            background-color: #e74645;
+        }
+
+        .amarelo-1 {
+            background-color: #facd60;
+        }
+
+        .amarelo-2 {
+            background-color: #fdfa66;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Testando o Float e o Flex</h1>
+
+    <section>
+        <h2>Utilizando o Float</h2>
+        <div class="container-float">
+            <div class="float-left amarelo-1">Esquerda</div>
+            <!-- <div>Meio</div> -->
+            <div class="float-right amarelo-2">Direita</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Utilizando o Flex</h2>
+        <div class="container-flex">
+            <div class="amarelo-1">Esquerda</div>
+            <!-- <div>Meio</div> -->
+            <div class="amarelo-2">Direita</div>
+        </div>
+    </section>
+
+</body>
+</html>
