@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.item-1 {grid-area: header;}
+
+.item-2 {grid-area: filter;}
+
+.item-3 {grid-area: product;}
+
+.item-4 {grid-area: summary;}
+
+.item-5 {grid-area: options;}
+
+.item-6 {grid-area: review;}
+
+.item-7 {grid-area: footer;}
+
+.grid-container {
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas:
+    'header header header header header header'
+    'filter product product summary options options'
+    'filter product product summary options options'
+    'filter review review review review review'
+    'footer footer footer footer footer footer';
+    background-color: rgb(215, 0, 0);
+}
+
+.grid-container div {
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+}
