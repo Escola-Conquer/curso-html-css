@@ -1,54 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Módulo 03 - Aula 06</title>
-  </head>
+  <link rel="stylesheet" href="./styles.css" />
 
-  <body>
-    <header class="header">
-      <p>Logo</p>
+  <title>Módulo 03 - Aula 05</title>
+</head>
 
-      <h1>Aula sobre containers</h1>
+<body>
+  <div class="table-wrapper">
+    <table>
+      <caption>
+        Turma 3B
+      </caption>
 
-      <nav>
-        <a href="https://youtube.com/escolaconquer" target="_blank">Youtube</a>
-        <a href="https://instagram.com/escolaconquer" target="_blank"
-          >Instagram</a
-        >
-      </nav>
-    </header>
+      <tr>
+        <th>Matéria</th>
+        <th>Aluno</th>
+        <th>Nota</th>
+      </tr>
 
-    <div class="content">
-      <aside class="side-menu">
-        <h2>Menu lateral</h2>
+      <tr>
+        <td rowspan="3">Matemática</td>
+        <td>Guilherme</td>
+        <td class="good">75</td>
+      </tr>
+      <tr>
+        <td>Thiago</td>
+        <td class="good">80</td>
+      </tr>
+      <tr>
+        <td>Júlia</td>
+        <td class="good">80</td>
+      </tr>
 
-        <nav class="links">
-          <a href="#yellow">Div azul</a>
-          <a href="#green">Div verde</a>
-          <a href="#black">Div preta</a>
-        </nav>
-      </aside>
+      <tr>
+        <td rowspan="3">Português</td>
+        <td>Guilherme</td>
+        <td class="bad">40</td>
+      </tr>
+      <tr>
+        <td>Thiago</td>
+        <td class="bad">67</td>
+      </tr>
+      <tr>
+        <td>Júlia</td>
+        <td class="good">98</td>
+      </tr>
 
-      <div class="posts">
-        <section id="blue" class="post"></section>
-        <section id="green" class="post"></section>
-        <section id="black" class="post"></section>
-      </div>
-    </div>
-  </body>
+      <tr>
+        <td rowspan="3">História</td>
+        <td>Guilherme</td>
+        <td class="good">90</td>
+      </tr>
+      <tr>
+        <td>Thiago</td>
+        <td class="good">100</td>
+      </tr>
+      <tr>
+        <td>Júlia</td>
+        <td class="bad">50</td>
+      </tr>
+    </table>
+  </div>
+</body>
 
-  <footer class="footer">
-    <nav class="footer-links">
-      <a href="https://youtube.com/escolaconquer" target="_blank">Youtube</a>
-      <a href="https://instagram.com/escolaconquer" target="_blank"
-        >Instagram</a
-      >
-    </nav>
-  </footer>
 </html>

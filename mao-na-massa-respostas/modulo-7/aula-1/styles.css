@@ -20,10 +20,6 @@ body>div {
   width: 400px;
   height: 250px;
 
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 2rem;
 }
 
 body>div .box {
@@ -33,6 +29,12 @@ body>div .box {
   background: #84a98c;
 }
 
-body>div .box:nth-child(2) {
-  flex-basis: 140px;
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }

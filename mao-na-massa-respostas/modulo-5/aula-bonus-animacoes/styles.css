@@ -1,0 +1,22 @@
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+button {
+    border-width: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    animation: pulse 2s infinite;
+}
