@@ -131,6 +131,7 @@ form footer button:first-of-type {
 
   color: #000;
 }
+
 form footer button:first-of-type:hover {
   background: #127475;
   color: #e9ecef;
@@ -140,6 +141,7 @@ form footer button:last-child {
   background: #127475;
   border-color: #127475;
 }
+
 form footer button:last-child:hover {
   background-color: #127375e0;
 }

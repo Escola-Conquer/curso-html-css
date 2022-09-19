@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Validação de Campos Utilizando Pattern</title>
+</head>
+
+<body>
+    <form>
+        <label>Nome:</label>
+        <input type="text" required>
+        <br> <br>
+
+        <label>E-mail:</label>
+        <input type="email" required>
+        <br> <br>
+
+        <label>Senha:</label>
+        <input type="password" pattern=".{6,}" title="Insira no mínimo 6 caracteres">
+
+        <p>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="Limpar dados página">
+        </p>
+    </form>
+</body>
+
+</html>

@@ -1,1 +1,78 @@
-<!-- Diversos componentes para abrir em navegadores diferentes, aparência padrão: checkbox, radio button.. -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes</title>
+</head>
+
+<body>
+    <form>
+        <p>
+            <label for="name">Nome *</label>
+            <input type="name" name="name" placeholder="Digite seu nome" required />
+        </p>
+
+        <p>
+            <label for="email">E-mail *</label>
+            <input type="email" name="email" placeholder="Digite seu email" required />
+        </p>
+
+        <p>
+            <label for="email">Whatsapp</label>
+            <input type="text" name="whatsapp" placeholder="Digite seu Whatsapp" />
+        </p>
+
+        <p>
+            <label for="gender">Gênero</label>
+            <select type="text" name="gender">
+                <option value="male">Masculino</option>
+                <option value="female">Feminino</option>
+                <option value="other">Outro</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="description">Fale um pouco sobre você</label>
+            <textarea type="text" name="description"></textarea>
+        </p>
+
+        <p>
+            <label for="skill-level">Qual seu nível de conhecimento sobre HTML?</label>
+            <input type="range" name="skillLevel" min="0" max="10" step="1" />
+        </p>
+
+        <p>Qual das tecnologias abaixo, você tem mais conhecimento?</p>
+        <div>
+            <label for="html">
+                <input type="radio" name="best-user-tech" id="html" value="html" />
+                HTML
+            </label>
+            <label for="css">
+                <input type="radio" name="best-user-tech" id="css" value="css" />
+                CSS
+            </label>
+            <label for="javascript">
+                <input type="radio" name="best-user-tech" id="javascript" value="javascript" />
+                JavaScript
+            </label>
+        </div>
+
+        <p>
+            <label for="terms-input">
+                <input id="terms-input" type="checkbox" name="terms" />
+                Concordo com os Termos de Privacidade
+            </label>
+        </p>
+
+        <footer>
+            <button type="reset">Limpar dados</button>
+
+            <button type="submit">Enviar</button>
+        </footer>
+    </form>
+</body>
+
+</html>

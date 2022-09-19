@@ -1,78 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="./styles.css" />
 
-    <title>Módulo 4 - Aula 03</title>
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" /> -->
 
-  <body>
-    <div class="wrapper">
-      <h1>Meus dados</h1>
+  <title>Módulo 4 - Aula 03</title>
+</head>
 
-      <form id="form" name="form">
+<body>
+  <div class="wrapper">
+    <h1>Meus dados</h1>
+
+    <form id="form" name="form">
+      <p>
+        <label for="name">Nome</label>
+        <input type="text" name="name">
+      </p>
+
+      <p>
+        <label for="whatsapp">WhatsApp</label>
+        <input type="tel" name="whatsapp">
+      </p>
+
+      <p>
+        <label for="">Gênero</label>
+        <select name="gender" id="">
+          <option value="">masculino</option>
+          <option value="">feminino</option>
+          <option value="">outro</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="skillLevel">Qual seu nível de conhecimento sobre HTML</label>
+        <input type="range" name="skillLevel">
+      </p>
+
+      <div>
+        <p>Qual das tecnologias abaixo você tem mais conhecimento?</p>
         <p>
-          <label for="name">Nome</label>
-          <input type="text" name="name">
+          <input type="radio" id="html" name="technology">
+          <label for="html">HTML</label>
         </p>
-
         <p>
-          <label for="whatsapp">WhatsApp</label>
-          <input type="tel" name="whatsapp">
+          <input type="radio" id="css" name="technology">
+          <label for="css">CSS</label>
         </p>
-
         <p>
-          <label for="">Gênero</label>
-          <select name="gender" id="">
-            <option value="">masculino</option>
-            <option value="">feminino</option>
-            <option value="">outro</option>
-          </select>
+          <input type="radio" id="javascript" name="technology">
+          <label for="javascript">JavaScript</label>
         </p>
-        
-        <p>
-          <label for="skillLevel">Qual seu nível de conhecimento sobre HTML</label>
-          <input type="range" name="skillLevel">
-        </p>
+      </div>
 
-        <div>
-          <p>Qual das tecnologias abaixo você tem mais conhecimento?</p>
-          <p>
-            <input type="radio" id="html" name="technology">
-            <label for="html">HTML</label>
-          </p>
-          <p>
-            <input type="radio" id="css" name="technology">
-            <label for="css">CSS</label>
-          </p>
-          <p>
-            <input type="radio" id="javascript" name="technology">
-            <label for="javascript">JavaScript</label>
-          </p>
-        </div>
+      <p>
+        <label for="description">Fale um pouco sobre você</label>
+        <textarea name="description" id="" cols="30" rows="10"></textarea>
+      </p>
 
-        <p>
-          <label for="description">Fale um pouco sobre você</label>
-          <textarea name="description" id="" cols="30" rows="10"></textarea>
-        </p>
-
-        <p class="checkbox-wrapper">
-          <input type="checkbox" id="rememberMe" name="rememberMe">
-          <label for="rememberMe">Concordo com os Termos de Privacidade</label>
-        </p>
-      </form>
-    </div>
-  </body>
+      <p class="checkbox-wrapper">
+        <input type="checkbox" id="rememberMe" name="rememberMe">
+        <label for="rememberMe">Concordo com os Termos de Privacidade</label>
+      </p>
+    </form>
+  </div>
+</body>
 
 </html>

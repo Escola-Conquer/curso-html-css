@@ -1,114 +1,78 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="stylesheet" href="./styles.css" />
 
-    <title>Módulo 4 - Aula 05</title>
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
 
-  <body>
-    <div class="wrapper">
-      <h1>Meus dados</h1>
+  <title>Módulo 4 - Aula 05</title>
+</head>
 
-      <form id="form" name="form">
-        <label for="name">Nome *</label>
-        <input
-          id="name-input"
-          type="name"
-          name="name"
-          placeholder="Digite seu nome"
-          required
-        />
+<body>
+  <div class="wrapper">
+    <h1>Meus dados</h1>
 
-        <label for="email">E-mail *</label>
-        <input
-          id="email-input"
-          type="email"
-          name="email"
-          placeholder="Digite seu email"
-          required
-        />
+    <form id="form" name="form">
+      <label for="name">Nome *</label>
+      <input id="name-input" type="name" name="name" placeholder="Digite seu nome" required />
 
-        <label for="email">Whatsapp</label>
-        <input
-          id="whatsapp-input"
-          type="text"
-          name="whatsapp"
-          placeholder="Digite seu Whatsapp"
-        />
+      <label for="email">E-mail *</label>
+      <input id="email-input" type="email" name="email" placeholder="Digite seu email" required />
 
-        <label for="gender">Gênero</label>
-        <select id="gender-input" type="text" name="gender">
-          <option value="male">Masculino</option>
-          <option value="female">Feminino</option>
-          <option value="other">Outro</option>
-        </select>
+      <label for="email">Whatsapp</label>
+      <input id="whatsapp-input" type="text" name="whatsapp" placeholder="Digite seu Whatsapp" />
 
-        <label for="description">Fale um pouco sobre você</label>
-        <textarea
-          id="description-input"
-          type="text"
-          name="description"
-        ></textarea>
+      <label for="gender">Gênero</label>
+      <select id="gender-input" type="text" name="gender">
+        <option value="male">Masculino</option>
+        <option value="female">Feminino</option>
+        <option value="other">Outro</option>
+      </select>
 
-        <label for="skill-level"
-          >Qual seu nível de conhecimento sobre HTML?</label
-        >
-        <input
-          type="range"
-          name="skillLevel"
-          id="skill-level-input"
-          min="0"
-          max="10"
-          step="1"
-        />
+      <label for="description">Fale um pouco sobre você</label>
+      <textarea id="description-input" type="text" name="description"></textarea>
 
-        <p>Qual das tecnologias abaixo, você tem mais conhecimento?</p>
-        <div class="radio-inputs-wrapper">
-          <label for="html">
-            <input type="radio" name="best-user-tech" id="html" value="html" />
-            HTML
-          </label>
-          <label for="css">
-            <input type="radio" name="best-user-tech" id="css" value="css" />
-            CSS
-          </label>
-          <label for="javascript">
-            <input
-              type="radio"
-              name="best-user-tech"
-              id="javascript"
-              value="javascript"
-            />
-            JavaScript
-          </label>
-        </div>
+      <label for="skill-level">Qual seu nível de conhecimento sobre HTML?</label>
+      <input type="range" name="skillLevel" id="skill-level-input" min="0" max="10" step="1" />
 
-        <label for="terms-input" class="checkbox-wrapper">
-          <input id="terms-input" type="checkbox" name="terms" />
-
-          Concordo com os Termos de Privacidade
+      <p>Qual das tecnologias abaixo, você tem mais conhecimento?</p>
+      <div class="radio-inputs-wrapper">
+        <label for="html">
+          <input type="radio" name="best-user-tech" id="html" value="html" />
+          HTML
         </label>
+        <label for="css">
+          <input type="radio" name="best-user-tech" id="css" value="css" />
+          CSS
+        </label>
+        <label for="javascript">
+          <input type="radio" name="best-user-tech" id="javascript" value="javascript" />
+          JavaScript
+        </label>
+      </div>
 
-        <footer>
-          <button type="button" onclick="clearData()">Limpar dados</button>
+      <label for="terms-input" class="checkbox-wrapper">
+        <input id="terms-input" type="checkbox" name="terms" />
 
-          <button>Enviar</button>
-        </footer>
-      </form>
-    </div>
-  </body>
+        Concordo com os Termos de Privacidade
+      </label>
 
-  <script src="./index.js"></script>
+      <footer>
+        <button type="button" onclick="clearData()">Limpar dados</button>
+
+        <button>Enviar</button>
+      </footer>
+    </form>
+  </div>
+</body>
+
+<script src="./index.js"></script>
+
 </html>
