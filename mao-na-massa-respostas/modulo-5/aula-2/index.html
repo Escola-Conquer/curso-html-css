@@ -1,90 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Móculo 05 - Aula 02</title>
-  </head>
-  <body>
-    <!-- Faça o que se pede abaixo! -->
+  <link rel="stylesheet" href="./styles.css" />
 
-    <!-- Mude a cor do elemento para vermelho abaixo usando o seletor universal -->
-    <h1>Mude minha cor utulizando seletor universal</h1>
+  <title>Móculo 05 - Aula 02</title>
+</head>
 
-    <hr />
+<body>
+  <!-- Faça o que se pede abaixo! -->
 
-    <!-- Mude a cor do elemento abaixo para azul usando o seletor por tipo -->
-    <h2>Mude minha cor utulizando o seletor por tipo</h2>
+  <!-- Mude a cor do elemento para vermelho abaixo usando o seletor universal -->
+  <h1>Mude minha cor utilizando seletor universal</h1>
 
-    <hr />
+  <hr />
 
-    <!-- Mude a cor do elemento abaixo para azul usando classe -->
-    <h3 class="title">Mude minha cor utulizando classe</h3>
+  <!-- Mude a cor do elemento abaixo para azul usando o seletor por tipo -->
+  <h2>Mude minha cor utilizando o seletor por tipo</h2>
 
-    <hr />
+  <hr />
 
-    <!-- Mude a cor do elemento abaixo para azul usando ID -->
-    <h4 id="title-secondary">Mude minha cor utulizando ID</h4>
+  <!-- Mude a cor do elemento abaixo para azul usando classe -->
+  <h3 class="title">Mude minha cor utilizando classe</h3>
 
-    <hr />
+  <hr />
 
-    <!-- Mude a cor de fundo do input do tipo "password", usando atributo -->
-    <input type="password" placeholder="Digite algo aqui!" />
-    <input type="text" placeholder="Digite algo aqui!" />
+  <!-- Mude a cor do elemento abaixo para azul usando ID -->
+  <h4 id="title-secondary">Mude minha cor utilizando ID</h4>
 
-    <hr />
+  <hr />
 
-    <!-- Mude a cor do elemento abaixo para azul usando descendente -->
-    <p>Mude minha cor utulizando descendente</p>
+  <!-- Mude a cor de fundo do input do tipo "password", usando atributo -->
+  <input type="password" placeholder="Digite algo aqui!" />
+  <input type="text" placeholder="Digite algo aqui!" />
 
-    <hr />
+  <hr />
 
-    <!-- Altere a cor de texto do h3, utilizando seletor filho -->
-    <div class="seletor-filho">
-      <p>Eu não devo mudar de cor</p>
+  <!-- Mude a cor do elemento abaixo para azul usando descendente -->
+  <p>Mude minha cor utilizando descendente</p>
 
-      <h3>Eu devo mudar de cor</h3>
+  <hr />
 
-      <div>
-        <h3>Eu não devo mudar de cor</h3>
-      </div>
+  <!-- Altere a cor de texto do h3, utilizando seletor filho -->
+  <div class="seletor-filho">
+    <p>Eu não devo mudar de cor</p>
 
-      <span>Eu não devo mudar de cor</span>
+    <h3>Eu devo mudar de cor</h3>
+
+    <div>
+      <h3>Eu não devo mudar de cor</h3>
     </div>
 
-    <hr />
+    <span>Eu não devo mudar de cor</span>
+  </div>
 
-    <!-- Altere a cor do primeiro "p" dentro da div (utilizando o seletor que imediatamente sucede) -->
-    <div class="seletor-sucessor-imediato">
-      <p>Eu não devo mudar de cor</p>
+  <hr />
+
+  <!-- Altere a cor do primeiro "p" dentro da div (utilizando o seletor que imediatamente sucede) -->
+  <div class="seletor-sucessor-imediato">
+    <p>Eu não devo mudar de cor</p>
+    <p>Eu devo mudar de cor</p>
+    <p>Eu devo mudar de cor</p>
+  </div>
+
+  <hr />
+
+  <!-- Altere a cor do elemento "p" que sucede a "div" com classe "diferent-color" -->
+  <div class="seletor-sucessor">
+    <div>
+      <p>eu não devo mudar de cor</p>
+    </div>
+    <div class="diferent-color">
       <p>Eu devo mudar de cor</p>
-      <p>Eu devo mudar de cor</p>
     </div>
+  </div>
 
-    <hr />
+  <hr />
 
-    <!-- Altere a cor do elemento "p" que sucede a "div" com classe "diferent-color" -->
-    <div class="seletor-sucessor">
-      <div>
-        <p>eu não devo mudar de cor</p>
-      </div>
-      <div class="diferent-color">
-        <p>Eu devo mudar de cor</p>
-      </div>
-    </div>
+  <!-- Altere a cor do item 3 usando pseudo seletores -->
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+  </ul>
+</body>
 
-    <hr />
-
-    <!-- Altere a cor do item 3 usando pseudo seletores -->
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-    </ul>
-  </body>
 </html>

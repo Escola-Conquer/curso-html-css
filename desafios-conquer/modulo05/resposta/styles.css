@@ -36,14 +36,14 @@ section {
   justify-content: center;
 }
 
-#presentation > div {
+#presentation>div {
   max-width: 350px;
   text-align: center;
 
   margin-top: 2rem;
 }
 
-#presentation > div h1 {
+#presentation>div h1 {
   margin-bottom: 1rem;
 }
 
@@ -58,12 +58,15 @@ section {
   25% {
     transform: translateX(8px);
   }
+
   50% {
     transform: translateX(-8px);
   }
+
   75% {
     transform: translateX(8px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -86,6 +89,7 @@ section {
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 #offer .card:hover {
   animation: card 0.5s;
 
@@ -116,6 +120,7 @@ section {
 
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
+
 #caption a:hover {
   background: #ee123ab0;
 }
@@ -140,6 +145,7 @@ section {
 
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
+
 #caption button:hover {
   background: #23d366b4;
 }

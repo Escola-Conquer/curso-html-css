@@ -3,7 +3,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-body > div {
+body>div {
   width: 50px;
   height: 50px;
 
@@ -15,30 +15,39 @@ body > div {
 .dotted {
   border: dotted;
 }
+
 .dashed {
   border: dashed;
 }
+
 .solid {
   border: solid;
 }
+
 .double {
   border: double;
 }
+
 .groove {
   border: groove;
 }
+
 .ridge {
   border: ridge;
 }
+
 .inset {
   border: inset;
 }
+
 .outset {
   border: outset;
 }
+
 .outset {
   border: none;
 }
+
 .outset {
   border: hidden;
 }

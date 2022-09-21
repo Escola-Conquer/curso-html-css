@@ -38,13 +38,6 @@ section {
   justify-items: center;
 }
 
-.board > div {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-start;
-  justify-content: space-evenly;
-}
-
 .square {
   width: 100px;
   height: 100px;

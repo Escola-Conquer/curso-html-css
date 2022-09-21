@@ -36,14 +36,15 @@ body {
   border: 4px solid #000;
 }
 
-.boxes > div {
+.boxes>div {
   width: 145px;
   height: 145px;
 }
 
-.boxes > div.green {
+.boxes>div.green {
   background: green;
 }
-.boxes > div.blue {
+
+.boxes>div.blue {
   background: blue;
 }

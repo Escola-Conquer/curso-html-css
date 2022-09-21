@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,46 +10,32 @@
 
   <title>Formulário de contratação</title>
 </head>
+
 <body>
   <section>
     <h1>Formulário para contratação de professores</h1>
 
     <p>
-      Olá professor! Preencha o formulário abaixo com o que se pede para que sua 
+      Olá professor! Preencha o formulário abaixo com o que se pede para que sua
       candidatura à vaga seja concluída.
     </p>
 
     <form id="form" name="form">
       <label for="name">Nome completo *</label>
-      <input
-        type="name"
-        name="name"
-        placeholder="Digite seu nome"
-        required
-      />
+      <input type="name" name="name" placeholder="Digite seu nome" required />
 
       <label for="email">E-mail *</label>
-      <input
-        type="email"
-        name="email"
-        placeholder="Digite seu e-mail"
-        required
-      />
+      <input type="email" name="email" placeholder="Digite seu e-mail" required />
 
       <label for="age">Idade *</label>
-      <input
-        type="number"
-        name="age"
-        placeholder="Digite sua idade"
-        required
-      />
+      <input type="number" name="age" placeholder="Digite sua idade" required />
 
       <label for="subject">Matéria a lecionar *</label>
       <select type="text" name="subject">
         <option value="math">Matemática</option>
         <option value="portuguese">Português</option>
         <option value="biology">Biologia</option>
-        <option value="science">Ciiencias</option>
+        <option value="science">Ciências</option>
         <option value="history">História</option>
         <option value="geography">Geografia</option>
         <option value="arts">Artes</option>
@@ -81,12 +68,7 @@
           Cursando mestrado
         </label>
         <label for="mastersDegreeComplete">
-          <input
-            type="radio"
-            name="schooling"
-            id="mastersDegreeComplete"
-            value="mastersDegreeComplete"
-          />
+          <input type="radio" name="schooling" id="mastersDegreeComplete" value="mastersDegreeComplete" />
           Mestrado completo
         </label>
         <label for="studyingDoctorate">
@@ -94,12 +76,7 @@
           Cursando doutorado
         </label>
         <label for="doctorateDegreeComplete">
-          <input
-            type="radio"
-            name="schooling"
-            id="doctorateDegreeComplete"
-            value="doctorateDegreeComplete"
-          />
+          <input type="radio" name="schooling" id="doctorateDegreeComplete" value="doctorateDegreeComplete" />
           Doutorado completo
         </label>
       </div>
@@ -118,4 +95,5 @@
 </body>
 
 <script src="./index.js"></script>
+
 </html>
